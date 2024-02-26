@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 400px;
+  padding: 20px;
+}
+.header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+.header-logo {
+  float: right;
+  background: #007bff;
+  padding: 10px;
+  border-radius: 50%;
+}
+.header-logo img {
+  width: 40px;
+  height: 40px;
+}
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+p {
+  color: #666;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: calc(100% - 22px); /* Adjusts for padding and border */
+}
+.btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.btn:hover {
+  background: #0056b3;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="header">
+    <h1>My Postcard</h1>
+    <div class="header-logo">
+      <!-- Logo will go here -->
+      <img src="data:image/png;base64,YOUR_BASE64_ENCODED_IMAGE" alt="Logo">
+    </div>
+  </div>
+  <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+  <p>This is so cool, can't wait to start doing more stuff!</p>
+  
+  <div class="form-group">
+    <input type="text" class="input" placeholder="Some Name">
+  </div>
+  <div class="form-group">
+    <input type="email" class="input" placeholder="Some Email">
+  </div>
+  <div class="form-group">
+    <input type="text" class="input" placeholder="Some comment">
+  </div>
+  
+  <button class="btn">Send My Postcard</button>
+</div>
+
+</body>
+</html>
